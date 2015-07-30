@@ -1,5 +1,6 @@
 body{font-size: 32px;
-     background-color: aliceblue;
+     background:linear-gradient(to bottom, #f99507, #f9e917);
+    margin-bottom: -10px;
 }
 .content{
     display: block;
@@ -9,17 +10,31 @@ body{font-size: 32px;
 }
 p { color:  navy; }
 header {
+    width:100%
     display: block;
-    background: url(http://s017.radikal.ru/i421/1112/c8/e65fe8dc1a4e.jpg)  repeat-x center bottom;
-    height: 255px;
-    margin:-10px;
+    background: linear-gradient(to bottom, #f93906, #f9e917);
+    margin:-7px;
 }
+
+.header-bg img {
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+.header-bg {
+     background: url(http://1.bp.blogspot.com/-mSJHbT6jaZE/U3JTCw1VB0I/AAAAAAAAEUg/I3cWhnz_vOc/s1600/pixel_skyline_silhouette_by_mirz_alt-d3fj8tp.png)  repeat-x center bottom;
+     height: 255px;
+ }
 aside {
-    background: #f0f0f0;
+    background: #f0aa2a;
     padding: 10px;
     width: 200px;
     float: right;
-    font-size: 24px;
+    font-size: 20px;
+    border: solid 5px saddlebrown;
+    font-family: Arial;
+    text-decoration: underline;
+    color: black;
 }
 article {
     margin-right: 200px;
@@ -39,7 +54,12 @@ figcaption {
 }
 section{margin-right: 200px;}
 footer{
-    margin-bottom: 0px;
     height: 150px;
-    background: linear-gradient(to top,forestgreen,yellow);
+    background: linear-gradient(to top,forestgreen, #f9e917);
+    margin-right:-7px;
+    margin-left:-7px;
 }
+.foter{
+    position: relative;
+    bottom: -100px;
+    left:45%; }
