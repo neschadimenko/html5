@@ -1,1 +1,45 @@
+body{font-size: 32px;
+     background-color: aliceblue;
+}
+.content{
+    display: block;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
 p { color:  navy; }
+header {
+    display: block;
+    background: url(http://s017.radikal.ru/i421/1112/c8/e65fe8dc1a4e.jpg)  repeat-x center bottom;
+    height: 255px;
+    margin:-10px;
+}
+aside {
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    float: right;
+    font-size: 24px;
+}
+article {
+    margin-right: 200px;
+    display: block;
+}
+figure {
+    background: #5f6a72;
+    padding: 10px;
+    display: block;
+    width: 250px;
+    float: left;
+    margin: 0 10px 10px 0;
+    text-align: center;
+}
+figcaption {
+    color: #fff;
+}
+section{margin-right: 200px;}
+footer{
+    margin-bottom: 0px;
+    height: 150px;
+    background: linear-gradient(to top,forestgreen,yellow);
+}
