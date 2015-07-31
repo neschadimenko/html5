@@ -32,10 +32,10 @@ aside {
     float: right;
     font-size: 20px;
     border: solid 5px saddlebrown;
-    font-family: Arial;
     text-decoration: underline;
-    color: black;
 }
+aside p{font-family: Geneva, Arial, Helvetica, sans-serif;
+        color: black;}
 article {
     margin-right: 200px;
     display: block;
@@ -62,4 +62,5 @@ footer{
 .foter{
     position: relative;
     bottom: -100px;
-    left:45%; }
+    text-align: center;
+    }
